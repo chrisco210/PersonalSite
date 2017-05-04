@@ -1,0 +1,32 @@
+.thin-roboto {
+	font-family:'Roboto';
+	font-weight: 300;
+
+}
+.under-title {
+	font-family:'TI-92p Mini Sans';
+}
+@font-face{
+	font-family: 'TI-92p Mini Sans';
+	src: url("fonts/TI-92pmini.ttf") format("truetype");
+}
+.slant-div {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
+  z-index: -1;
+}
+.sharp-corner{
+	border-radius: 0 !important;
+}
+.skyline{
+	background-image: url("img/bg.jpg");
+	background-size: cover;
+}
