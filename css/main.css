@@ -4,11 +4,11 @@
 
 }
 .under-title {
-	font-family:'MiniSans';
+	font-family: MiniSans;
 }
 @font-face{
 	font-family: 'MiniSans';
-	src: local("../fonts/TI-92,pmini.tff") format("truetype"), url("../fonts/TI-92pmini.ttf") format("truetype");
+	src: url('mini.ttf');
 }
 .slant-div {
   content: '';
@@ -27,6 +27,6 @@
 	border-radius: 0 !important;
 }
 .skyline{
-	background-image: url("img/bg.jpg");
+	background-image: url("../img/bg.jpg");
 	background-size: cover;
 }
