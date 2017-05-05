@@ -4,11 +4,11 @@
 
 }
 .under-title {
-	font-family:'TI-92p Mini Sans';
+	font-family:'MiniSans';
 }
 @font-face{
-	font-family: 'TI-92p Mini Sans';
-	src: url("fonts/TI-92pmini.ttf") format("truetype");
+	font-family: 'MiniSans';
+	src: url("../fonts/TI-92pmini.ttf") format("truetype");
 }
 .slant-div {
   content: '';
