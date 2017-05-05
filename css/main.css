@@ -8,7 +8,7 @@
 }
 @font-face{
 	font-family: 'MiniSans';
-	src: url("../fonts/TI-92pmini.ttf") format("truetype");
+	src: local("../fonts/TI-92,pmini.tff") format("truetype"), url("../fonts/TI-92pmini.ttf") format("truetype");
 }
 .slant-div {
   content: '';
