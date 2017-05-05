@@ -28,5 +28,5 @@
 }
 .skyline{
 	background-image: url("../img/bg.jpg");
-	background-size: cover;
+	width: 100%;
 }
