@@ -5,7 +5,7 @@ $(document).ready(function () {
 	console.log("Loaded");
 	var d = new Date();
 	console.log("Hour " + d.getHours().toString())
-	if (d.getHours() > 18) {		//Toggle night mode	
+	if (d.getHours() > 18 || d.getHours() < 7) {		//Toggle night mode	
 		isNightMode = true;
 		$('#nightToggle').bootstrapToggle('off');
 		$("#main-sheet").attr("href", "https://bootswatch.com/darkly/bootstrap.min.css");
