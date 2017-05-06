@@ -1,20 +1,28 @@
+/* FONTS */
 .thin-roboto {
 	font-family:'Roboto';
 	font-weight: 300;
-
+}
+.roboto {
+	font-family:'Roboto';
 }
 .under-title {
 	font-family: MiniSans;
+}
+.big-font {
+	font-size: 125%;
 }
 @font-face{
 	font-family: 'MiniSans';
 	src: url('mini.ttf');
 }
-.slant-div {
+/*FEATURES*/
+.slant-div-45 {
   content: '';
   position: absolute;
   top: 0; left: 0;
-  width: 100%; height: 100;
+  width: 100%; 
+  height: 170%;
   -webkit-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   transform-origin: 100% 0;
@@ -23,10 +31,39 @@
   transform: skew(-45deg);
   z-index: -1;
 }
-.sharp-corner{
-	border-radius: 0 !important;
+.slant-div-60 {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-60deg);
+  -ms-transform: skew(-60deg);
+  transform: skew(-60deg);
+  z-index: -1;
+}
+.slant-div-75 {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-75deg);
+  -ms-transform: skew(-75deg);
+  transform: skew(-75deg);
+  z-index: -1;
 }
 .skyline{
 	background-image: url("../img/bg.jpg");
 	width: 100%;
+}
+.sharp-corner{
+	border-radius: 0 !important;
+}
+.shadow {
+	box-shadow: 0 0 5px black;
 }
