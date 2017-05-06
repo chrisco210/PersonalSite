@@ -10,7 +10,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 	</head>
 	<body class="">
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://pre.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<div class="container-fluid">
@@ -21,15 +21,267 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4">
-					<div class="panel panel-danger panel-default sharp-corner">
-						<div class="panel-body">
-							<h1 class="thin-roboto text-center">IN DEVELOPMENT</h1>
+			<div><br /><br /></div>
+			<section name="java">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="panel panel-danger panel-default sharp-corner">
+							<div class="panel-heading sharp-corner">
+								<h1 class="thin-roboto text-center">JAVA</h1>
+							</div>
+							<div class="panel-body sharp-corner">
+								<p>
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									<ul>
+										<li>blah</li>
+										<li>blah</li>
+										<li>blah</li>
+									</ul>blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									<pre>
+hexCharVal = new byte[mess.length()];		//Hex value of each of the chars in the message
+char[] messChars = mess.toCharArray();	//Get an array of chars in input string
+int[] depreKey = new int[messChars.length];
+
+byte[] imgByte = new byte[e.depreImg(path).length];		//Get all bytes in the image
+imgByte = e.depreImg(path);
+
+for(int i = 0; i < messChars.length; i++)		//Convert char array to byte array
+{
+	System.out.println(i);		//Debug info
+	hexCharVal[i] = e.enpreChar(messChars[i]);
+}
+									</pre>
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+			<section name="csharp">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="panel panel-danger panel-default sharp-corner">
+							<div class="panel-heading sharp-corner">
+								<h1 class="thin-roboto text-center">C# .NET</h1>
+							</div>
+							<div class="panel-body sharp-corner">
+								<p>
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									<ul>
+										<li>blah</li>
+										<li>blah</li>
+										<li>blah</li>
+									</ul>blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah
+									<pre>
+if (getPass() == false)
+{   //If password is wrong
+	if (errorCode == 0 || errorCode == 2)
+	{
+		MessageBox.Show("Incorrect password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+	}
+	isSignedIn = false;
+	resetQuery();
+}
+else
+{   //If password is correct
+	isSignedIn = true;
+	statusText.Text = "Welcome, " + user;
+	logText = user + " signed in at " + DateTime.Now.ToString("MM-dd-yyyy h:mm:ss tt");
+	System.IO.File.AppendAllText(winPath, logText + Environment.NewLine);
+	buttonEnable();
+}
+</pre>
+									 blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section name="web">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="panel panel-danger panel-default sharp-corner">
+							<div class="panel-heading sharp-corner">
+								<h1 class="thin-roboto text-center">HTML, CSS, JAVASCRIPT</h1>
+							</div>
+							<div class="panel-body sharp-corner">
+								<p>Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									<ul>
+										<li>blah</li>
+										<li>blah</li>
+										<li>blah</li>
+									</ul>blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+<pre>
+&lt;head&gt;
+	&lt;title&gt;Chris Rachlinski&lt;/title&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;https://bootswatch.com/darkly/bootstrap.min.css&quot; id=&quot;main-sheet&quot;&gt;
+	&lt;!--&lt;link rel=&quot;stylesheet&quot; href=&quot;https://bootswatch.com/flatly/bootstrap.min.css&quot;&gt;--&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;css\main.css&quot; id=&quot;&quot;&gt;
+	&lt;link href=&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'&gt;
+	&lt;link href=&quot;https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;/head&gt;
+</pre>
+								blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section name="php">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="panel panel-danger panel-default sharp-corner">
+							<div class="panel-heading sharp-corner">
+								<h1 class="thin-roboto text-center">PHP</h1>
+							</div>
+							<div class="panel-body sharp-corner">
+								<p>
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah 
+									<ul>
+										<li>blah</li>
+										<li>blah</li>
+										<li>blah</li>
+									</ul>
+									blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+<pre>
+$postTitle = $_POST[&quot;posttitle&quot;];
+$postContent = $_POST[&quot;postcontent&quot;];
+$postId;
+$postOP = $_SESSION['username'];
+$postTime = date(&quot;h_i_sa&quot;);
+$postDate = date(&quot;m-d-Y&quot;);
+	
+echo $postTime . &quot; &quot; . $postDate . &quot;&lt;br&gt;&quot;;
+
+echo &quot;Post title: &quot; . $postTitle . &quot;&lt;br&gt;&quot;;
+echo &quot;Post content: &quot; . $postContent . &quot;&lt;br&gt;&quot;;
+
+$xml = new SimpleXMLElement('&lt;post /&gt;');
+</pre>
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section name="batch">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="panel panel-danger panel-default sharp-corner">
+							<div class="panel-heading sharp-corner">
+								<h1 class="thin-roboto text-center">Batch</h1>
+							</div>
+							<div class="panel-body sharp-corner">
+								<p>
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									<ul>
+										<li>blah</li>
+										<li>blah</li>
+										<li>blah</li>
+									</ul>
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+<pre>
+:checkmp4
+rem checks if there are files to convert
+if not exist %inputDirectory%\*.%inputFormat% goto nosource
+:convert
+for  %%x in (%inputDirectory%\*.%inputFormat%) do (
+  set "source=%%x"
+) 
+"%FFPATH%" -i "%source%" -b:a %bitrateDesired% -vn "%source%.%formatDesired%"
+goto done
+:done 
+move "%source%.%formatDesired%" "%outputDirectory%"
+del "%source%"
+echo Converted %source% 
+if exist "*.%inputFormat%" goto convert 
+goto end
+:end
+cls
+echo Finished converting
+pause
+exit
+</pre>
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									Blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+									blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</div>
 	</body>
 </html>
