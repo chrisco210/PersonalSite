@@ -35,8 +35,29 @@
 									<br />
 									<h2 class="thin-roboto text-center">SALT TEXT</h2>
 									Salt text uses image steganography to store a string or small file inside of an image, and retrieves it with a key provided to the user.  
-									This happens without easily perceptable distortion to the image when encoding smaller files.  You can find the source on <a href="https://github.com/chrisco210/SaltText">github</a>,
+									This happens without easily perceptable distortion to the image when encoding smaller files.  The program operates mainly through the command
+									line, but a GUI may be added soon.  You can find the source on <a href="https://github.com/chrisco210/SaltText">github</a>,
 									or download a compiled jar file <a href="http://www.mediafire.com/file/0xq122vw0g4oe4b/SaltText.jar">from mediafire</a>.
+								</p>
+								<p id="SaltTextDocs">
+									SaltText currently operates through the command line only.
+									<span class="big-roboto">Arguments</span>
+									<ul>
+										<li>-h displays help.  Usage: java -jar YourJarPathHere.jar -h</li>
+										<li>-e encodes a string.  Usage: java -jar YourJarPath.jar -e &quot;Your string here &quot;</li>
+										<li>-d decodes a string.  Usage: java -jar YourJarPath.jar -d</li>
+										<li>-k specifies a key to use.  Usage: java -jar YourJarPath.jar -k &qout;Your key here&quot;</li>
+										<li>-i specifies the path of the image to enode in. Usage: java -jar YourJarPath.jar -i &quot;pathGoesHere&quot;</li>
+										<li>-o specifies the path to place the enoded image in.  Usage: java -jar YourJarPath.jar -o &quot;outPathGoesHere&qout;</li>
+										<li>-n specifies the entropy (randomness) of an encode.  Usage: java -jar YourJarPath.jar -n entropyLevelGoesHere</li>
+										<li>-s specifies the base skip amount with no entropy.  Usage: java -jar YourJarPath.jar -s baseSkipAmount</li>
+										<li>-f specifies a file encode. Usage: java -jar YourJarPath.jar -f &quot;fileToEncodeGoesHere&quot;</li>
+										<li>-fd specifies a file decode.  java -jar YourJarPath.jar -fd &quot;outPathOfFileGoesHere&quot;</li>
+										<li>-t dumps the key to a text file, or reads code from a text file.  Useful for encoding files with extremely long codes.  
+											Usage: java -jar YourJarPath.jar -k &qout;PathOfTxtFileGoesHere&quot;<li>
+									</ul>
+									Please note, that there are very limited checks to see if the file you are encoding will fit into the image you are using.  Make sure to check this
+									beforehand.
 								</p>
 							</div>
 						</div>
