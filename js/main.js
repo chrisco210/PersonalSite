@@ -15,7 +15,7 @@ $(document).ready(function () {
 		$('#nightToggle').bootstrapToggle('on');
 		$("#main-sheet").attr("href", "https://bootswatch.com/flatly/bootstrap.min.css");
 	}
-
+	
 	changeSheet();
 
 	$(function () {

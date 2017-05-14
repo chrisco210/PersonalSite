@@ -1,0 +1,58 @@
+.big-title{
+	font-family: 'Source Sans Pro';
+	font-size: 100;
+}
+.ssp{
+	font-family: 'Source Sans Pro';
+}
+#student-tag{
+	font-size:150;
+}
+.pipe{
+	font-size: 200;
+}
+@font-face{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.full{
+	height: 90%;
+}
+.rotate-90{
+	font-size: 200;
+	font-family: 'Josefin Slab', serif;
+	/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.card-data-header {
+	font-family: 'PT Mono', monospace;	
+}
+.card-data {
+	font-family: 'PT Mono', monospace;
+	font-size: 16;
+}
+#bigskip{
+	height: 3%;
+}
+.bg{
+	z-index: -100;
+}
+#idiot{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 75;
+}
+body{
+	background-image: url('../img/drawing.svg');
+	background-size: 100%;
+}
